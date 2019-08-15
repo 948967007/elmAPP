@@ -1,0 +1,30 @@
+.location {
+  padding-top: 0.24rem;
+  background: #00a7ff;
+}
+
+.location .sub {
+  height: .62rem;
+}
+
+.location .sub span {
+  float: left;
+  color: #fff;
+  font-size: .35rem;
+  text-indent: .12rem;
+}
+
+.location .sub .weizhi {
+  text-indent: .27rem;
+  padding-top: .05rem;
+}
+
+.location .sub .info {
+  font-weight: bold;
+}
+
+.location .sub .sanjiaodown {
+  padding-left: .13rem;
+  font-size: 0.15rem;
+  line-height: .62rem;
+}

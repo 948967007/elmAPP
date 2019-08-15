@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* 
+   100vw  屏幕宽度
+
+   设备屏幕也要分成7.5等分
+   每一等分是 100/7.5 = 13.3333333
+
+   750 设计图
+
+   把设计图  分成 7.5 等份，每一等份是100px单位
+   把100px作为一个单位去进行换算  100px = 1rem
+
+
+   rem 是根据html的文字大小进行计算的
+
+   1rem = 1html文字大小 = 13.333333333333vw = 100px
+*/
+html {
+  font-family: 'Helvetica Neue',Tahoma,Arial, PingFangSC-Regular ,sans-serif,'Hiragino Sans GB','Microsoft';
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  user-select: none;
+  font-size: 13.333333333333vw;
+  color: #333;
+}
+
+.enFont {
+  font-family: 'SFMono-Regular',Consolas,"Liberation Mono",Menlo,Courier,monospace;
+}
+
+body {
+  background-color: #fff;
+  font-size: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+img {
+  vertical-align: top;
+}
+
+ul {
+  list-style: none;
+}

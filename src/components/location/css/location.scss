@@ -1,0 +1,29 @@
+.location{
+   padding-top:0.24rem;
+   background:#00a7ff;
+
+   .sub{
+      height:.62rem;
+      // background:#f0f;
+
+      span{
+         float: left;
+         color:#fff;
+         font-size:.35rem;
+         text-indent:.12rem;
+      }
+      .weizhi{
+         text-indent:.27rem;
+         padding-top:.05rem;
+      }
+      .info{
+         
+         font-weight: bold;
+      }
+      .sanjiaodown{
+         padding-left:.13rem;
+         font-size:0.15rem;
+         line-height:.62rem;
+      }
+   }
+}

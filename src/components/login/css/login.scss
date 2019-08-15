@@ -1,0 +1,56 @@
+#login{
+padding:0 .72rem;
+
+
+   .logo{
+      height:2.25rem;  
+      padding-top:.75rem;
+      text-align:center;
+      
+      img{
+         height:1.15rem;
+      }
+   }
+   .login-form{
+      font-size: .25rem;
+
+      .ant-input-prefix{
+
+         svg{
+            font-size:.3rem;
+         }
+      }
+      .ant-input{
+         height:.9rem;
+         font-size:.3rem;
+         text-indent: 0.3rem;
+      }
+      a{
+         color: #2395ff;
+      }
+
+      .regBut{
+         margin-top:.6rem;
+         height:.84rem;
+
+         .ant-btn{
+            width:100%;
+            height:100%;
+            border:none;
+            font-size:.3rem;
+            background:#4cd96f;
+         }
+      }
+      .aboutUa{
+         width:100%;
+         padding-top:.4rem;
+         text-align:center;
+
+         a{
+            color: #999;
+            font-size: .25rem;
+         }
+
+      }
+   }
+}

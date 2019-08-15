@@ -1,0 +1,28 @@
+.fixTop {
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.06rem;
+  background: #00a7ff;
+}
+
+.fixTop a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6.94rem;
+  height: .72rem;
+  background: #fff;
+  color: #9e9e9e;
+  font-size: .30rem;
+}
+
+.fixTop a .sousuo {
+  margin-right: .1rem;
+  margin-top: .05rem;
+  font-size: .35rem;
+}

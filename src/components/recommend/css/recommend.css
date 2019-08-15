@@ -1,0 +1,32 @@
+.recommend {
+  height: 0.72rem;
+  text-align: center;
+}
+
+.recommend img {
+  height: 0.72rem;
+}
+
+.home-filter {
+  height: 0.8rem;
+}
+
+.home-filter ul {
+  display: flex;
+  height: 0.8rem;
+}
+
+.home-filter ul li {
+  flex: 1;
+  line-height: 0.8rem;
+  text-align: center;
+  font-size: .3rem;
+}
+
+.home-filter ul li .sanjiaodown {
+  font-size: .06rem;
+}
+
+.home-filter ul li .shaixuan {
+  font-size: .2rem;
+}

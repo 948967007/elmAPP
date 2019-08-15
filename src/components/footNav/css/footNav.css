@@ -1,0 +1,31 @@
+.footNav {
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  width: 100%;
+  height: 1rem;
+  background: #fff;
+  box-shadow: 0 -0.01rem 0.02rem rgba(0, 0, 0, 0.3);
+  display: flex;
+}
+
+.footNav a {
+  flex: 1;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #8e8e93;
+}
+
+.footNav a .iconfont {
+  font-size: .4rem;
+}
+
+.footNav a.active {
+  color: #0089dc;
+}
+
+.footNav span {
+  font-size: .2rem;
+}

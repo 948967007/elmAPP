@@ -1,0 +1,174 @@
+// 店家商品列表
+
+.shoplist{
+
+   ul{
+
+      li{
+         
+         padding:.2rem;
+         border-top:0.01rem solid #eee;
+         a{
+            width:100%;
+            height:100%;
+            display:flex;
+            justify-content:space-between;
+            .logo{
+               overflow: hidden;
+               width:1.3rem;
+               height:1.3rem;
+               border:.01rem solid#eee;
+               border-radius: .05rem;
+               img{
+                  width:100%;
+                  height:100%;
+               }
+
+
+            }
+            .cStyle{
+               padding-bottom: .2rem;
+            }
+            .blurb{
+               width:calc(100% - 1.5rem);
+               min-height:3rem;
+               // border: solid;
+   
+               img{
+                  width:0.55rem;
+                  height:0.35rem;
+                  vertical-align:-.07rem;
+               }
+               .title{
+                  margin-left:.1rem;
+                  font-size:.3rem;
+                  font-weight: 700;
+                  color:#333;
+               }
+               .grade{
+                  display: flex;
+                  height: .43rem;
+                  justify-content: space-between;
+                  ul{
+                     display: flex;
+                     width:1.12rem ;
+                     height:.43rem; 
+                     justify-content: left;
+                     align-items: center;
+   
+   
+                     li{
+                        flex:1;
+                        font-size:0.15rem;
+                        height:100%;
+                        padding:0;
+                        margin:0;
+                        border: none;
+   
+                        svg{
+                           font-size: 0.2rem;
+                        }
+                     }
+                  }
+                  span{
+                     font-size:.2rem;
+                     color:#666;
+                     margin-left:.3rem;
+                  }
+                  .delivery{
+                     border-radius:.05rem;
+                     background:#0085ff;
+                     color:#fff;
+                  }
+               }
+               .money{
+                  display:flex;
+                  justify-content: space-between;
+                  font-size:0.2rem;
+                  
+                  .left{
+                     color:#666;
+   
+                     .fuhao{
+                        margin:0 .1rem;
+                     }
+                  }
+                  .right{
+                     color:#999;
+   
+                     .fuhao{
+                        margin:0 .1rem;
+                     }
+                  }
+               }
+               .product{
+                  span{
+                     padding:0 .1rem;
+                     border: .01rem solid #ddd;
+                     border-radius:10%;
+                     font-size:.2rem;
+   
+   
+                  }
+                  .sign{
+                     border:none;
+                     color:#ea4403;
+                     img{
+                        width:0.2rem;
+                        height:100%;
+                        vertical-align: baseline;
+   
+                     }
+                  }
+                  .mang{
+                     margin-right:.5rem;
+                  }
+               }
+               .discount{
+                  overflow: hidden;
+                  width:100%;
+                  height:.8rem;
+                  padding-top:0.1rem;
+                  
+                  span{
+                     font-size: 0.2rem;
+                  }
+                  .benefit{
+                     display: inline-block;
+                     height:.28rem;
+                     width:.28rem;
+                     margin-right:.15rem;
+                     border-radius:.03rem;
+                     text-align: center;
+                     line-height:.28rem;
+                     color:#fff;
+                  }
+                  .subtract{
+                    
+                     .subtract1{
+                        background: #f07373;
+                     }
+                  }
+                  .first{
+                     
+                     .first1{
+                        background: #70bc46;
+                     }
+                  }
+                  .special{
+                     
+                     .special1{
+                        background: #f1884f;
+                     }
+                  }
+                  .discount1{
+                     .discount2{
+                        background: #f07373;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

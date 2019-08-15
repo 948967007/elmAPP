@@ -1,0 +1,94 @@
+.list .top_nav {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: #008fff;
+}
+
+.list .top_nav .name {
+  height: 0.9rem;
+  font-size: .35rem;
+  text-align: center;
+  line-height: .9rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.list .top_nav .return {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: .7rem;
+  height: .7rem;
+  text-align: center;
+  line-height: .7rem;
+  font-size: .4rem;
+  margin-top: .15rem;
+  color: #fff;
+}
+
+.list .top_nav .list_fixTop {
+  height: .90rem;
+  font-size: .25rem;
+  font-weight: bold;
+  color: #666;
+  background: #008fff;
+}
+
+.list .top_nav .topNav {
+  display: flex;
+  height: .9rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list .top_nav .topNav .nav {
+  overflow-x: auto;
+  width: 6.6rem;
+}
+
+.list .top_nav .topNav .nav ul {
+  width: 200%;
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+.list .top_nav .topNav .nav ul li {
+  margin: 0 .25rem;
+}
+
+.list .top_nav .topNav .nav ul li a {
+  font-size: .3rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.list .top_nav .topNav .nav ul li a.active {
+  position: relative;
+  font-weight: bold;
+  color: #fff;
+}
+
+.list .top_nav .topNav .nav ul li a.active::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -.11rem;
+  width: 100%;
+  height: .02rem;
+  content: "";
+  background: #fff;
+}
+
+.list .top_nav .topNav .rightNav {
+  padding-right: .25rem;
+}
+
+.list .top_nav .topNav .rightNav .icon {
+  font-size: .35rem;
+  color: #fff;
+}
+
+.list .list-filter {
+  font-size: .3rem;
+  background: #f8f8f8;
+}

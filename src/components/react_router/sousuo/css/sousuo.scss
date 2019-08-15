@@ -1,0 +1,58 @@
+
+
+// 搜索页
+.sousuo{
+   font-size: .3rem;
+   
+   .return{
+      width:.7rem;
+      height:.7rem;
+      text-align: center;
+      line-height: .7rem;
+      font-size:.4rem;
+      margin-top: .15rem;
+      margin-left: .15rem;
+      color:#999;
+   }
+   .search_box{
+      margin:.3rem auto;
+      width:90%;
+      input{
+         height:.6rem;
+         text-indent: .3rem;
+         background:#f8f8f8;
+         border: none ;
+         box-shadow: none;
+         font-size:.25rem;
+         
+
+      }
+      span{
+         .ant-btn{
+            height:.6rem;
+            font-size:.25rem;
+         }
+      }
+   }
+   .hot{
+      padding: 0 .4rem;
+      font-weight: bold;
+      font-size:.3rem;
+      color:#666;
+   }
+   .cate{
+      display: flex;
+      flex-wrap: wrap;
+      padding:.4rem;
+
+
+      li{
+         padding:.15rem .2rem;
+         margin-right:.25rem;
+         margin-bottom: .25rem;
+         background:#f7f7f7;
+         color:#666;
+         border-radius: 0.05rem;
+      }
+   }
+}

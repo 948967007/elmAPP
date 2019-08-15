@@ -1,0 +1,58 @@
+div .timeLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.4rem;
+}
+
+div .timeLogo img {
+  height: .65rem;
+}
+
+div .findCommodity {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0;
+}
+
+div .findCommodity li {
+  width: 2.35rem;
+  height: 4rem;
+  font-size: .25rem;
+}
+
+div .findCommodity li .findTime span {
+  padding: .05rem;
+  height: .36rem;
+  background: #333;
+  color: #fff;
+  font-size: .24rem;
+}
+
+div .findCommodity li .findImg img {
+  width: 100%;
+}
+
+div .findCommodity li .findInfo {
+  color: #333;
+}
+
+div .findCommodity li .findPrice {
+  color: #f00;
+}
+
+div .findCommodity li .findPrice del {
+  color: #aaa;
+}
+
+div .findMore {
+  height: 1rem;
+  text-align: center;
+  line-height: 1rem;
+  font-size: .26rem;
+  background: #f5f5f5;
+}
+
+div .findMore a {
+  color: #999;
+}

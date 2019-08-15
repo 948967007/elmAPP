@@ -1,0 +1,121 @@
+div .loginPage {
+  height: 3.9rem;
+  border-bottom: .01rem solid #ddd;
+}
+
+div .loginPage .reglogin {
+  display: flex;
+  justify-content: space-between;
+  height: 2.2rem;
+  padding: .5rem .3rem;
+  background: #0085ff;
+  color: #fff;
+}
+
+div .loginPage .reglogin .elmImg {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+div .loginPage .reglogin .elmImg img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+div .loginPage .reglogin .loginBtn {
+  width: 5rem;
+  margin-left: .35rem;
+}
+
+div .loginPage .reglogin .loginBtn p {
+  margin-bottom: .1rem;
+  font-size: .4rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+div .loginPage .reglogin .loginBtn span {
+  font-size: .25rem;
+}
+
+div .loginPage .reglogin .loginBtn span i {
+  font-size: .25rem;
+}
+
+div .loginPage .reglogin .arrowRight-fill {
+  display: flex;
+  align-items: center;
+  font-size: .2rem;
+}
+
+div .loginPage .reglogin .arrowRight-fill i {
+  font-size: .2rem;
+}
+
+div .loginPage .money {
+  display: flex;
+  justify-content: space-between;
+}
+
+div .loginPage .money .moneyBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 1.7rem;
+}
+
+div .loginPage .money .moneyBtn img {
+  height: .5rem;
+}
+
+div .loginPage .money .moneyBtn span {
+  font-size: .25rem;
+}
+
+div .loginPage .money .redPacket {
+  border-right: .01rem solid #ddd;
+}
+
+div .myServe {
+  padding: 0 .25rem;
+  margin-top: .2rem;
+  border-style: solid;
+  border-color: #ddd;
+  border-width: .01rem 0;
+}
+
+div .myServe .mySite {
+  display: flex;
+  width: 100%;
+  height: .9rem;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: .01rem solid #ddd;
+}
+
+div .myServe .mySite .mySite1 {
+  display: flex;
+  align-items: center;
+}
+
+div .myServe .mySite .mySite1 img {
+  height: .4rem;
+  margin-right: .2rem;
+}
+
+div .myServe .mySite .mySite1 span {
+  font-size: .35rem;
+}
+
+div .myServe .mySite .arrowRight-fill {
+  display: flex;
+  align-items: center;
+  font-size: .2rem;
+}
+
+div .myServe .mySite .arrowRight-fill i {
+  font-size: .2rem;
+}

@@ -1,0 +1,59 @@
+
+div{
+   .timeLogo{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height:1.4rem;
+
+         img{
+            height:.65rem;
+         }
+   }
+   .findCommodity{
+      display: flex;
+      justify-content: space-around;
+      margin-bottom:0;
+      li{
+         width:2.35rem;
+         height:4rem;
+         font-size:.25rem;
+         .findTime{
+            
+            span{
+               padding:.05rem;
+               height:.36rem;
+               background:#333;
+               color: #fff;
+               font-size:.24rem;
+            }
+         }
+         .findImg{
+            img{
+               width:100%;
+            }
+            
+         }
+         .findInfo{
+            color:#333;
+         }
+         .findPrice{
+            color:#f00;
+            del{
+               color:#aaa;
+            }
+         }
+         
+      }
+   }
+   .findMore{
+      height:1rem;
+      text-align: center;
+      line-height: 1rem;
+      font-size: .26rem;
+      background: #f5f5f5;
+      a{
+         color: #999;
+      }
+   }
+}

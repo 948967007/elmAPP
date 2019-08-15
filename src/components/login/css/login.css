@@ -1,0 +1,55 @@
+#login {
+  padding: 0 .72rem;
+}
+
+#login .logo {
+  height: 2.25rem;
+  padding-top: .75rem;
+  text-align: center;
+}
+
+#login .logo img {
+  height: 1.15rem;
+}
+
+#login .login-form {
+  font-size: .25rem;
+}
+
+#login .login-form .ant-input-prefix svg {
+  font-size: .3rem;
+}
+
+#login .login-form .ant-input {
+  height: .9rem;
+  font-size: .3rem;
+  text-indent: 0.3rem;
+}
+
+#login .login-form a {
+  color: #2395ff;
+}
+
+#login .login-form .regBut {
+  margin-top: .6rem;
+  height: .84rem;
+}
+
+#login .login-form .regBut .ant-btn {
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: .3rem;
+  background: #4cd96f;
+}
+
+#login .login-form .aboutUa {
+  width: 100%;
+  padding-top: .4rem;
+  text-align: center;
+}
+
+#login .login-form .aboutUa a {
+  color: #999;
+  font-size: .25rem;
+}

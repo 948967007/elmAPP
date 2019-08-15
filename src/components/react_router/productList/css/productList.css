@@ -1,0 +1,307 @@
+.topBanner {
+  position: relative;
+  height: 2rem;
+  background: url("../img/1.webp") no-repeat 100%/100%;
+}
+
+.topBanner .BannerImg2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -.3rem;
+  margin: auto;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.topBanner a {
+  position: absolute;
+  top: 0;
+  left: .1rem;
+  color: #fff;
+}
+
+.topBanner a i {
+  font-size: 0.4rem;
+}
+
+.ProductTitle {
+  padding-top: .6rem;
+  text-align: center;
+}
+
+.ProductTitle > div {
+  font-size: .2rem;
+}
+
+.ProductTitle .shoppTitle {
+  margin-bottom: .1rem;
+  font-weight: bold;
+  font-size: .4rem;
+  color: #333;
+}
+
+.ProductTitle .shoppTitle > i {
+  font-size: .2rem;
+}
+
+.ProductTitle .shoppEvaluate {
+  margin-bottom: .15rem;
+  color: #666;
+}
+
+.ProductTitle .shoppEvaluate > span {
+  margin: 0 .1rem;
+}
+
+.ProductTitle .shoppCash {
+  height: .5rem;
+  margin-bottom: .15rem;
+}
+
+.ProductTitle .shoppCash img {
+  height: 100%;
+}
+
+.ProductTitle .shoppDiscounts {
+  display: flex;
+  justify-content: space-between;
+  width: 6.05rem;
+  height: .4rem;
+  margin: 0 auto .15rem;
+}
+
+.ProductTitle .shoppDiscounts .money_hint {
+  width: 4.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #333;
+}
+
+.ProductTitle .shoppDiscounts .money_hint .money_Off {
+  transform: scale(0.5);
+  margin-right: 0.1rem;
+  padding: 0 .05rem;
+  background: #f07373;
+  border-radius: .05rem;
+  color: #fff;
+}
+
+.ProductTitle .shoppDiscounts .money_discounts {
+  width: 1.2rem;
+}
+
+.ProductTitle .shoppNotice {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 6.05rem;
+  height: .4rem;
+  margin: 0 auto;
+}
+
+.list_commodity {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.list_commodity .left_nav {
+  position: sticky;
+  top: 0;
+  width: 1.5rem;
+  height: 12rem;
+}
+
+.list_commodity .left_nav ul li {
+  display: flex;
+  align-items: center;
+  margin: .4rem 0;
+  padding-left: .13rem;
+}
+
+.list_commodity .left_nav ul li img {
+  width: .25rem;
+  height: .25rem;
+  margin-right: .1rem;
+}
+
+.list_commodity .left_nav ul li span {
+  font-size: .25rem;
+}
+
+.list_commodity .hotel_commodity {
+  width: 5.7rem;
+}
+
+.list_commodity .hotel_commodity ul li {
+  display: flex;
+  justify-content: space-between;
+  padding-right: .25rem;
+  padding-bottom: .45rem;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_img {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_img img {
+  width: 100%;
+  height: 100%;
+  border-radius: .05rem;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info {
+  height: 1.9rem;
+  font-size: .2rem;
+  color: #999;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 3rem;
+  height: .4rem;
+  font-size: .33rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_dosing {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 3.2rem;
+  height: .35rem;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_Sv {
+  height: .35rem;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_Sv .salesVolume {
+  margin-right: .15rem;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_discount {
+  height: .35rem;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_discount span {
+  color: #eb6551;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_discount .c_discount {
+  margin-right: .05rem;
+  border: 0.01rem solid rgba(235, 102, 82, 0.3);
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: .45rem;
+  font-size: .25rem;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_price .price {
+  color: red;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_price .price .practical_RMB {
+  margin-right: .1rem;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_price .price .before_RMB {
+  color: #999;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_price .amount i {
+  font-size: .35rem;
+  color: #2395ff;
+}
+
+.list_commodity .hotel_commodity ul li .commodity_info .commodity_price .amount .num {
+  display: inline-block;
+  height: 100%;
+  margin: 0 .1rem;
+  line-height: .45rem;
+  color: #333;
+}
+
+.bottomLocation {
+  display: flex;
+  z-index: 999;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: .95rem;
+  background: #505052;
+}
+
+.bottomLocation .shoppingImg {
+  position: absolute;
+  left: .2rem;
+  top: -.2rem;
+  width: 1rem;
+  height: 1rem;
+  border: .1rem solid #444;
+  background: #363636;
+  border-radius: 50%;
+}
+
+.bottomLocation .shoppingImg .icon {
+  width: .8rem;
+  height: .8rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .8rem;
+}
+
+.bottomLocation .shoppingImg .icon i {
+  font-size: .5rem;
+}
+
+.bottomLocation .shoppingImg .shuliang {
+  position: absolute;
+  width: .3rem;
+  height: .3rem;
+  top: -.1rem;
+  right: -.1rem;
+  text-align: center;
+  line-height: .3rem;
+  border-radius: 50%;
+  font-size: .2rem;
+  background: #ff3c15;
+  color: #fff;
+}
+
+.bottomLocation .com-prices {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 1.5rem;
+}
+
+.bottomLocation .com-prices p {
+  margin-bottom: 0;
+  font-size: .28rem;
+}
+
+.bottomLocation .com-prices .shipping-fee {
+  font-size: .2rem;
+}
+
+.bottomLocation .close-an-account {
+  width: 2.1rem;
+  height: 100%;
+  text-align: center;
+  line-height: .95rem;
+  font-size: .3rem;
+  font-weight: bold;
+  color: #fff;
+}

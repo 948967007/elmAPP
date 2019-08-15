@@ -1,0 +1,116 @@
+
+div{
+   .loginPage{
+      height:3.9rem;
+      border-bottom:.01rem solid #ddd;
+
+      .reglogin{
+         display: flex;
+         justify-content: space-between;
+         height:2.2rem;
+         padding:.5rem .3rem;
+         background:#0085ff;
+         color:#fff;
+
+         .elmImg{
+            width:1.2rem;
+            height:1.2rem;
+
+            img{
+               width:100%;
+               height:100%;
+               border-radius: 50%;
+            }
+         }
+         .loginBtn{
+               width:5rem;
+               margin-left:.35rem;
+
+            p{
+               margin-bottom:.1rem;
+               font-size: .4rem;
+               font-weight: bold;
+               color:#fff;
+            }
+            span{
+               font-size:.25rem;
+               i{
+                  font-size:.25rem;
+               }
+            }
+         }
+         .arrowRight-fill{
+            display: flex;
+            align-items: center;
+            font-size: .2rem;
+
+            i{
+               font-size: .2rem;
+            }
+         }
+      }
+
+      .money{
+         display: flex;
+         justify-content: space-between;
+
+         .moneyBtn{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width:50%;
+            height:1.7rem;
+
+            img{
+               height: .5rem;
+            }
+            span{
+               font-size:.25rem;
+            }
+         }
+         .redPacket{
+            border-right:.01rem solid #ddd;
+         }
+      }
+
+   }
+   .myServe{      
+      padding:0 .25rem;
+      margin-top:.2rem;
+      border-style: solid;
+      border-color: #ddd;
+      border-width: .01rem 0;
+      
+
+      .mySite{
+         display: flex;
+         width:100%;
+         height: .9rem;
+         align-items: center;
+         justify-content: space-between;
+         border-bottom:.01rem solid #ddd;
+
+         .mySite1{
+            display: flex;
+            align-items: center;
+            img{
+               height:.4rem;
+               margin-right:.2rem;
+            }
+            span{
+               font-size: .35rem;
+            }
+         }
+         .arrowRight-fill{
+            display: flex;
+            align-items: center;
+            font-size: .2rem;
+
+            i{
+               font-size: .2rem;
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,35 @@
+// 推荐
+.recommend{
+   height:0.72rem;
+   text-align: center;
+   img{
+      height:0.72rem;
+   }
+}
+.home-filter{
+   // position:sticky;
+   // z-index: 888;
+   // top:1.06rem;
+   // bottom:0;
+   height: 0.8rem;
+
+   ul{
+      display:flex;
+      height: 0.8rem;
+
+      li{
+         flex:1;
+         line-height:0.8rem;
+         text-align: center;
+         font-size:.3rem;
+
+         .sanjiaodown{
+            font-size:.06rem;
+         }
+         .shaixuan{
+            font-size:.2rem;
+         }
+      }
+
+   }
+}
